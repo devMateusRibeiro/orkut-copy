@@ -6,3 +6,12 @@
 
     font-family:Arial, Helvetica, sans-serif;
 }
+
+body{
+    background-color: #D8E3E7;
+}
+
+.pink{
+    color: #F900BF;
+    font-weight: bold;
+}

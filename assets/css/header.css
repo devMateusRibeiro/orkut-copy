@@ -1,0 +1,16 @@
+.header_main{
+    padding: 10px;
+    float: left;
+    width: 65%;
+    height: 370.75px;
+
+    font-size: 14px;
+    text-align: center;
+
+    background-color: white;
+}
+
+.logo{
+    font-size: 80px;
+    margin: 100px 0px 0px 0px;
+}

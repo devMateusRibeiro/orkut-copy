@@ -1,0 +1,12 @@
+.copy{
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+
+    background-color: #EFEFEF;
+}
+
+.copy a{
+    text-decoration: none;
+}

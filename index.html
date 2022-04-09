@@ -9,7 +9,15 @@
     <link rel="stylesheet" href="/assets/css/normalize.css">
     <link rel="stylesheet" href="/assets/css/reset.css">
 
-    <link rel="stylesheet" href="/assets/css/header_main/header_main.css">
+    <link rel="stylesheet" href="/assets/css/containers.css">
+
+    <link rel="stylesheet" href="/assets/css/header_main.css">
+
+    <link rel="stylesheet" href="/assets/css/form.css">
+
+
+    <link rel="stylesheet" href="/assets/css/copy.css">
+
 </head>
 <body>
     <div class="container">
@@ -23,13 +31,21 @@
 
         <main class="form">
             <form class="form_login">
-                <p>Acesse o <b>orkut.com</b> com sua conta</p>
-                <p>E-mail:</p><input type="email" name="email" id="email">
-                <p>Senha:</p><input type="password" name="pass" id="pass">
-                <input type="checkbox" name="save" id="save"><p>Salvar as minhas informações neste computador.</p>
-                <p>Não use em computadores públicos.</p>
-                <button>Login</button>
-                <a href="#">Não consegue acessar a sua conta?</a>
+                <p class="form_login_access">Acesse o <b>orkut.com</b> com sua conta</p>
+
+                <input class="form_login_input" type="email" placeholder="E-mail">
+
+                <input class="form_login_input" type="password" placeholder="Senha">
+
+                <div class="form_login_save">
+                    <input type="checkbox" name="save" id="save"><p>Salvar as minhas informações neste computador.</p>
+                </div><!--form_login_save-->
+                
+                <p class="form_login_warning">Não use em computadores públicos.</p>
+
+                <button class="form_login_button">Login</button>
+
+                <p class="form_login_help"><a href="#">Não consegue acessar a sua conta?</a></p>
             </form><!--form_login-->
                 
             <div class="form_register">

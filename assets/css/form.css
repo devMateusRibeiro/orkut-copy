@@ -1,0 +1,66 @@
+/*form_login*/
+.form{
+    padding: 0px 0px 10px 10px;
+    float: right;
+    width: 35%;
+    font-size: 16px;
+    text-align: center;
+
+    height: 400px;
+
+    background-color: cadetblue;
+}
+
+/*form_login*/
+.form_login{
+    padding: 15px;
+    background-color: #EFEFEF;
+}
+
+.form_login_access{
+    padding: 5px 0px 15px 0px;
+}
+
+.form_login_input{
+    width: 80%;
+    margin: 5px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.form_login_save{
+    padding: 10px;
+}
+
+.form_login_save input{
+    display: inline-block;
+}
+
+.form_login_save p{
+    display: inline-block;
+    padding-left: 10px;
+
+    text-align: justify;
+    width: 240px;
+}
+
+.form_login_warning{
+    font-size: 14px;
+
+    color: gray;
+}
+
+.form_login_button{
+    display: block;
+    margin: 10px auto 0px auto;
+}
+
+.form_login_help{
+    padding: 20px 0px 0px 0px;
+}
+
+/*form_register*/
+.form_register{
+    margin-top: 10px;
+    background-color: #EFEFEF;
+}

@@ -18,7 +18,7 @@
 }
 
 .form_login_input{
-    width: 70%;
+    width: 200px;
     margin: 5px;
     text-align: center;
     line-height: 30px;
@@ -48,7 +48,9 @@
 
 .form_login_button{
     display: block;
+    width: 100px;
     margin: 10px auto 0px auto;
+    line-height: 30px;
 }
 
 .form_login_help{
